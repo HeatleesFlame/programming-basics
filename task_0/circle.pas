@@ -2,13 +2,13 @@
 program circle;
 
 var
-  x, y, a, b, r, equation: Real;
+  x, y, a, b, r: Real;
 
 begin
-  Read(x, y, a, b, r);
-  equation:= sqr(x-a) + sqr(y-b);
-  if equation <= sqr(r) then
+  read(x, y, a, b,  r);
+  if sqr(a-x) + Sqr(b-y) <= sqr(r) then
     WriteLn('true')
+
   else
     WriteLn('false');
 end.
