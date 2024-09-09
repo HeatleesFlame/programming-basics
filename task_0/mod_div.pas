@@ -2,15 +2,16 @@
 program mod_div;
 
 var
-  a, b, div_res: Integer;
+  a, b, div_res: LongInt;
 
 begin
   div_res:= 0;
   read(a, b);
-  while a > b do
+  while a >= b do
   begin
      div_res:= div_res + 1;
-     a:= a - b;    
+     a:= a - b;
+     WriteLn(a,' ', div_res)    
   end;
   
   WriteLn(div_res, ' ', a);

@@ -2,7 +2,7 @@
 program arrays;
 
 var
-    arr:array [0..4] of Integer;
+    arr:array [0..9] of Integer;
     min_index,
     max_index,
     min,
@@ -12,13 +12,13 @@ var
 
 begin
 
-  for i := 0 to 4 do
+  for i := 0 to 9 do
     read(arr[i]);
 
   min:= arr[0];
   max:= arr[0];
 
-  for i := 0 to 4 do
+  for i := 0 to 9 do
     begin
     if arr[i] < min then
     begin
