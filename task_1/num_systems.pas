@@ -36,6 +36,7 @@ var
     SetLength(new_num_digits, new_num_len);
     WriteLn('new_num_len is ', new_num_len);
 
+    {reverse if needed}
     for i:= 1 to new_num_len do
       begin
         Write(t_0 mod base_new, ' ');
