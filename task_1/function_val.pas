@@ -1,3 +1,4 @@
+{recursion: a_i = (-(a_i-1)/(k-1))*x*k}
 program function_val;
 
 var

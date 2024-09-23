@@ -16,7 +16,7 @@ begin
       current:= 1;
       sum:= second + current;
 
-     for i := 3 to n-1 do
+     for i := 3 to n do
       begin
 
         first:= second;
