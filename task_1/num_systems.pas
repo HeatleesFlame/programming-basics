@@ -64,6 +64,7 @@ begin
       if (n = 0) and (max_int[i] < number_old[i]) then
         begin
           WriteLn('this number cant be represented on this cpu');
+          exit();
         end; 
     end;
   
